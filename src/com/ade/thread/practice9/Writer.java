@@ -1,7 +1,5 @@
 package com.ade.thread.practice9;
 
-import com.ade.thread.practice1.Main;
-
 /**
  * Created by ismeade on 2015/5/21.
  */
