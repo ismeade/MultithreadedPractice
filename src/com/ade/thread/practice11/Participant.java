@@ -3,6 +3,7 @@ package com.ade.thread.practice11;
 import java.util.concurrent.TimeUnit;
 
 /**
+ *
  * Created by ismeade on 2015/5/21.
  */
 public class Participant implements Runnable {
