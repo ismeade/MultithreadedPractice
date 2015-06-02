@@ -29,7 +29,7 @@ public class Main {
             }
         } while (!task.isDone());
         pool.shutdown();
-        
+
 //        if (task.isCompletedNormally()) {
 //            System.out.printf("Main: The process has completed normally.\n");
 //        }
@@ -37,7 +37,7 @@ public class Main {
         for (int i = 0; i < products.size(); i++) {
             Product product = products.get(i);
             if (product.getPrice() != 12) {
-//                System.out.printf("Product %s: %f\n", product.getName(), product.getPrice());
+                System.out.printf("Product %s: %f\n", product.getName(), product.getPrice());
             }
         }
 
